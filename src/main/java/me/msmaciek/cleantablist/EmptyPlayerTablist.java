@@ -20,7 +20,8 @@ public final class EmptyPlayerTablist extends JavaPlugin implements PacketListen
 
         PacketEvents.setAPI(SpigotPacketEventsBuilder.build(this));
 
-        PacketEvents.getAPI().getSettings().reEncodeByDefault(false)
+        PacketEvents.getAPI().getSettings()
+            .reEncodeByDefault(true)
             .checkForUpdates(false)
             .bStats(false);
 
