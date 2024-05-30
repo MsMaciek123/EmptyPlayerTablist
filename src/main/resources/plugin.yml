@@ -1,0 +1,6 @@
+name: EmptyPlayerTablist
+version: '1.0.0'
+main: me.msmaciek.cleantablist.EmptyPlayerTablist
+api-version: '1.20'
+depend:
+  - packetevents
